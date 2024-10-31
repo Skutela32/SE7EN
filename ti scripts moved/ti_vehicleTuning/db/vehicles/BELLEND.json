@@ -1,0 +1,85 @@
+{
+    "stance": {
+        "wheelSize": 1.0,
+        "yRot": {
+            "2": 0.0,
+            "3": -0.0,
+            "0": 0.0,
+            "1": -0.0
+        },
+        "xOff": {
+            "2": -0.82226610183715,
+            "3": 0.82364702224731,
+            "0": -0.8613092303276,
+            "1": 0.86299282312393
+        },
+        "wheelWidth": 1.0
+    },
+    "engine": {
+        "tune": {
+            "fuel": {
+                "limiter": 0.66999999999999,
+                "timing": 0.42999999999999,
+                "afRatio": 0.44999999999999
+            },
+            "aspiration": {
+                "superchargerBoost": 0.5,
+                "superchargerSize": 0.5,
+                "turboBoost2": 0.5,
+                "turboSize1": 0.5,
+                "turboBoost1": 0.5,
+                "turboSize2": 0.5
+            },
+            "nitrous": {
+                "rampStartBoost": 1.0,
+                "rampEndBoost": 1.0,
+                "rampStart": 0.3,
+                "rampEnd": 1.0
+            },
+            "heads": {
+                "compRatio": 0.70999999999999,
+                "vvlProfile": 0.43,
+                "camProfile": 0.39999999999999,
+                "airflow": 0.89
+            }
+        },
+        "build": {
+            "valves": {
+                "quality": 1.0,
+                "material": "stock"
+            },
+            "conrods": {
+                "quality": 1.0,
+                "material": "stock"
+            },
+            "fuelDelivery": {
+                "quality": 1.0
+            },
+            "heads": {
+                "valves": 4,
+                "layout": "dohc",
+                "quality": 1.0,
+                "vvl": false
+            },
+            "block": {
+                "stroke": 0.66,
+                "cylinders": 6,
+                "layout": "inline",
+                "quality": 1.0,
+                "bore": 0.66
+            },
+            "crankshaft": {
+                "quality": 1.0,
+                "material": "stock"
+            },
+            "pistons": {
+                "quality": 1.0,
+                "material": "stock"
+            }
+        }
+    },
+    "handling": {
+        "fDriveBiasFront": 0.3000000119209,
+        "fBrakeBiasFront": 0.44999998807907
+    }
+}

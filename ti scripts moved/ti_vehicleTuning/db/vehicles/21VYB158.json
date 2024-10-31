@@ -1,0 +1,85 @@
+{
+    "stance": {
+        "wheelWidth": 0.0,
+        "xOff": {
+            "0": -0.80097597837448,
+            "3": 0.75251299142837,
+            "2": -0.75251299142837,
+            "1": 0.80097597837448
+        },
+        "yRot": {
+            "0": 0.0,
+            "3": -0.0,
+            "2": 0.0,
+            "1": -0.0
+        },
+        "wheelSize": 0.0
+    },
+    "engine": {
+        "tune": {
+            "fuel": {
+                "timing": 0.43,
+                "afRatio": 0.43,
+                "limiter": 0.62
+            },
+            "aspiration": {
+                "turboBoost2": 0.5,
+                "turboSize1": 0.5,
+                "turboSize2": 0.5,
+                "superchargerSize": 0.5,
+                "superchargerBoost": 0.5,
+                "turboBoost1": 0.5
+            },
+            "nitrous": {
+                "rampStartBoost": 1.0,
+                "rampEndBoost": 1.0,
+                "rampStart": 0.3,
+                "rampEnd": 1.0
+            },
+            "heads": {
+                "camProfile": 0.45,
+                "vvlProfile": 0.43,
+                "airflow": 0.9,
+                "compRatio": 0.53
+            }
+        },
+        "build": {
+            "valves": {
+                "material": "steel",
+                "quality": 0.5
+            },
+            "conrods": {
+                "material": "steel",
+                "quality": 0.5
+            },
+            "block": {
+                "stroke": 0.66,
+                "cylinders": 6,
+                "bore": 0.66,
+                "quality": 0.5,
+                "layout": "inline"
+            },
+            "heads": {
+                "valves": 4,
+                "vvl": false,
+                "quality": 0.5,
+                "layout": "dohc"
+            },
+            "pistons": {
+                "material": "steel",
+                "quality": 0.5
+            },
+            "crankshaft": {
+                "material": "steel",
+                "quality": 0.5
+            },
+            "fuelDelivery": {
+                "quality": 0.5
+            }
+        }
+    },
+    "handling": {
+        "fDriveBiasFront": 0.20000000298023,
+        "fBrakeBiasFront": 0.44999998807907
+    }
+}

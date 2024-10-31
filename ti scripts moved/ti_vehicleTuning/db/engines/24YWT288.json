@@ -1,0 +1,110 @@
+{
+    "aspiration": {
+        "stats": {
+            "quality": 100.0,
+            "compressor": 25.0,
+            "turbine2": 25.0,
+            "compressor2": 12.0,
+            "method": "twin",
+            "material": "ultimateplus",
+            "turbine": 40.0,
+            "system": "turbocharger"
+        },
+        "name": "Ultimate+ Twin Turbos"
+    },
+    "conrods": {
+        "stats": {
+            "quality": 100.0,
+            "material": "ultimateplus",
+            "length": 86.0
+        },
+        "name": "Ultimate+ Conrods"
+    },
+    "intercooler": {
+        "stats": {
+            "size": 500.0,
+            "material": "ultimateplus",
+            "quality": 100.0
+        },
+        "name": "Ultimate+ Intercooler"
+    },
+    "intake": {
+        "stats": {
+            "quality": 100.0,
+            "material": "ultimateplus",
+            "system": "performance"
+        },
+        "name": "Ultimate+ Intake"
+    },
+    "block": {
+        "stats": {
+            "quality": 100.0,
+            "cylinders": 6,
+            "stroke": 86.0,
+            "material": "ultimateplus",
+            "bore": 86.0,
+            "layout": "inline"
+        },
+        "name": "Ultimate+"
+    },
+    "name": "Ultimate+",
+    "valves": {
+        "stats": {
+            "quality": 100.0,
+            "material": "ultimateplus"
+        },
+        "name": "Ultimate+ Valves"
+    },
+    "heads": {
+        "stats": {
+            "quality": 100.0,
+            "vvl": false,
+            "material": "ultimateplus",
+            "config": "DOHC",
+            "valves": 4
+        },
+        "name": "Ultimate+ Heads"
+    },
+    "exhaust": {
+        "stats": {
+            "quality": 100.0,
+            "material": "ultimateplus",
+            "diameter": 50.0
+        },
+        "name": "Ultimate+ Exhaust"
+    },
+    "pistons": {
+        "stats": {
+            "quality": 100.0,
+            "material": "ultimateplus",
+            "diameter": 86.0
+        },
+        "name": "Ultimate+ Pistons"
+    },
+    "headers": {
+        "stats": {
+            "quality": 100.0,
+            "material": "ultimateplus",
+            "diameter": 30.0
+        },
+        "name": "Ultimate+ Headers"
+    },
+    "fuel": {
+        "stats": {
+            "method": "direct",
+            "quality": 100.0,
+            "deliver": "per-cylinder",
+            "system": "injection"
+        },
+        "name": "Ultimate+ Fuel System"
+    },
+    "crankshaft": {
+        "stats": {
+            "quality": 100.0,
+            "material": "ultimateplus"
+        },
+        "name": "Ultimate+ Crankshaft"
+    },
+    "typeof": "engine",
+    "variant": "+"
+}

@@ -1,0 +1,85 @@
+{
+    "stance": {
+        "yRot": {
+            "3": -0.0,
+            "0": 0.0,
+            "1": -0.0,
+            "2": 0.0
+        },
+        "xOff": {
+            "3": 0.80509293079376,
+            "0": -0.80249834060668,
+            "1": 0.80509293079376,
+            "2": -0.80249834060668
+        },
+        "wheelWidth": 1.0,
+        "wheelSize": 1.0
+    },
+    "handling": {
+        "fDriveBiasFront": 0.5,
+        "fBrakeBiasFront": 0.60000002384185
+    },
+    "engine": {
+        "tune": {
+            "aspiration": {
+                "turboSize1": 0.5,
+                "turboBoost2": 0.5,
+                "superchargerSize": 0.5,
+                "superchargerBoost": 0.5,
+                "turboSize2": 0.5,
+                "turboBoost1": 0.5
+            },
+            "nitrous": {
+                "rampEndBoost": 1.0,
+                "rampStartBoost": 1.0,
+                "rampStart": 0.3,
+                "rampEnd": 1.0
+            },
+            "heads": {
+                "camProfile": 0.69,
+                "compRatio": 0.65,
+                "vvlProfile": 0.43,
+                "airflow": 0.59
+            },
+            "fuel": {
+                "afRatio": 0.57,
+                "limiter": 0.38,
+                "timing": 0.57
+            }
+        },
+        "build": {
+            "valves": {
+                "material": "stock",
+                "quality": 1.0
+            },
+            "pistons": {
+                "material": "stock",
+                "quality": 1.0
+            },
+            "crankshaft": {
+                "material": "stock",
+                "quality": 1.0
+            },
+            "conrods": {
+                "material": "stock",
+                "quality": 1.0
+            },
+            "fuelDelivery": {
+                "quality": 1.0
+            },
+            "heads": {
+                "vvl": false,
+                "layout": "dohc",
+                "valves": 4,
+                "quality": 1.0
+            },
+            "block": {
+                "stroke": 0.66,
+                "quality": 1.0,
+                "layout": "inline",
+                "cylinders": 6,
+                "bore": 0.66
+            }
+        }
+    }
+}

@@ -1,0 +1,110 @@
+{
+    "conrods": {
+        "name": "Ultimate+ Conrods",
+        "stats": {
+            "material": "aluminium",
+            "quality": 100.0,
+            "length": 86.0
+        }
+    },
+    "intercooler": {
+        "name": "Ultimate+ Intercooler",
+        "stats": {
+            "material": "aluminium",
+            "size": 500.0,
+            "quality": 100.0
+        }
+    },
+    "crankshaft": {
+        "name": "Ultimate+ Crankshaft",
+        "stats": {
+            "material": "aluminium",
+            "quality": 100.0
+        }
+    },
+    "aspiration": {
+        "name": "Ultimate+ Twin Turbos",
+        "stats": {
+            "quality": 100.0,
+            "system": "turbocharger",
+            "turbine2": 25.0,
+            "compressor": 25.0,
+            "material": "aluminium",
+            "compressor2": 12.0,
+            "method": "twin",
+            "turbine": 40.0
+        }
+    },
+    "headers": {
+        "name": "Ultimate+ Headers",
+        "stats": {
+            "quality": 100.0,
+            "diameter": 30.0,
+            "material": "aluminium"
+        }
+    },
+    "variant": "+",
+    "heads": {
+        "name": "Ultimate+ Heads",
+        "stats": {
+            "quality": 100.0,
+            "config": "DOHC",
+            "material": "aluminium",
+            "valves": 4,
+            "vvl": false
+        }
+    },
+    "exhaust": {
+        "name": "Ultimate+ Exhaust",
+        "stats": {
+            "quality": 100.0,
+            "diameter": 50.0,
+            "material": "aluminium"
+        }
+    },
+    "pistons": {
+        "name": "Ultimate+ Pistons",
+        "stats": {
+            "quality": 100.0,
+            "diameter": 86.0,
+            "material": "aluminium"
+        }
+    },
+    "intake": {
+        "name": "Ultimate+ Intake",
+        "stats": {
+            "quality": 100.0,
+            "system": "performance",
+            "material": "aluminium"
+        }
+    },
+    "block": {
+        "name": "Ultimate+",
+        "stats": {
+            "quality": 100.0,
+            "stroke": 86.0,
+            "layout": "inline",
+            "cylinders": 6,
+            "material": "aluminium",
+            "bore": 86.0
+        }
+    },
+    "valves": {
+        "name": "Ultimate+ Valves",
+        "stats": {
+            "material": "aluminium",
+            "quality": 100.0
+        }
+    },
+    "typeof": "engine",
+    "fuel": {
+        "name": "Ultimate+ Fuel System",
+        "stats": {
+            "quality": 100.0,
+            "deliver": "per-cylinder",
+            "system": "injection",
+            "method": "direct"
+        }
+    },
+    "name": "Ultimate+"
+}

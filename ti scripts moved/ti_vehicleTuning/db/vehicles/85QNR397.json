@@ -1,0 +1,91 @@
+{
+    "stance": {
+        "yRot": {
+            "1": -0.0,
+            "0": 0.0,
+            "3": -0.0,
+            "2": 0.0
+        },
+        "xOff": {
+            "1": 0.84295159578323,
+            "0": -0.84295171499252,
+            "3": 0.85388040542602,
+            "2": -0.85388052463531
+        },
+        "wheelSize": 0.0,
+        "wheelWidth": 0.0
+    },
+    "engine": {
+        "tune": {
+            "fuel": {
+                "timing": 0.75,
+                "afRatio": 0.75,
+                "limiter": 0.74
+            },
+            "nitrous": {
+                "rampStartBoost": 1.0,
+                "rampEndBoost": 1.0,
+                "rampStart": 0.3,
+                "rampEnd": 1.0
+            },
+            "heads": {
+                "airflow": 1.0,
+                "camProfile": 0.61,
+                "vvlProfile": 0.43,
+                "compRatio": 0.83
+            },
+            "aspiration": {
+                "superchargerBoost": 0.5,
+                "turboSize2": 1.0,
+                "turboBoost2": 1.0,
+                "turboSize1": 1.0,
+                "turboBoost1": 1.0,
+                "superchargerSize": 0.5
+            }
+        },
+        "build": {
+            "aspiration": {
+                "size": 0.002875,
+                "quality": 1.14,
+                "typeof": "turbocharger",
+                "system": "twin"
+            },
+            "heads": {
+                "quality": 1.0,
+                "layout": "DOHC",
+                "vvl": false,
+                "valves": 4
+            },
+            "pistons": {
+                "quality": 1.0,
+                "material": "ultimateplus"
+            },
+            "conrods": {
+                "quality": 1.0,
+                "material": "ultimateplus"
+            },
+            "fuelDelivery": {
+                "quality": 1.0
+            },
+            "crankshaft": {
+                "quality": 1.0,
+                "material": "ultimateplus"
+            },
+            "block": {
+                "quality": 0.8,
+                "cylinders": 6,
+                "stroke": 0.66,
+                "layout": "inline",
+                "bore": 0.66
+            },
+            "valves": {
+                "quality": 1.0,
+                "material": "ultimateplus"
+            }
+        }
+    },
+    "handling": {
+        "fDriveBiasFront": 0.0,
+        "fBrakeBiasFront": 0.44999998807907
+    }
+}

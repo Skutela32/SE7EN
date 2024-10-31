@@ -1,0 +1,45 @@
+{
+    "engine": {
+        "build": {
+            "conrods": {
+                "material": "ultimateplus",
+                "quality": 1.0
+            },
+            "fuelDelivery": {
+                "quality": 1.0
+            },
+            "aspiration": {
+                "quality": 1.14,
+                "size": 0.002875,
+                "system": "twin",
+                "typeof": "turbocharger"
+            },
+            "heads": {
+                "valves": 4,
+                "quality": 1.0,
+                "layout": "DOHC",
+                "vvl": false
+            },
+            "crankshaft": {
+                "material": "ultimateplus",
+                "quality": 1.0
+            },
+            "block": {
+                "cylinders": 6,
+                "stroke": 0.66,
+                "quality": 0.8,
+                "layout": "inline",
+                "bore": 0.66
+            },
+            "pistons": {
+                "material": "ultimateplus",
+                "quality": 1.0
+            },
+            "valves": {
+                "material": "ultimateplus",
+                "quality": 1.0
+            }
+        },
+        "nitrousLevel": 0
+    }
+}

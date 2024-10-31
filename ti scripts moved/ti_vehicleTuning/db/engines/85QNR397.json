@@ -1,0 +1,110 @@
+{
+    "headers": {
+        "name": "Ultimate+ Headers",
+        "stats": {
+            "material": "ultimateplus",
+            "diameter": 30.0,
+            "quality": 100.0
+        }
+    },
+    "exhaust": {
+        "name": "Ultimate+ Exhaust",
+        "stats": {
+            "material": "ultimateplus",
+            "diameter": 50.0,
+            "quality": 100.0
+        }
+    },
+    "conrods": {
+        "name": "Ultimate+ Conrods",
+        "stats": {
+            "material": "ultimateplus",
+            "quality": 100.0,
+            "length": 86.0
+        }
+    },
+    "intercooler": {
+        "name": "Ultimate+ Intercooler",
+        "stats": {
+            "material": "ultimateplus",
+            "quality": 100.0,
+            "size": 500.0
+        }
+    },
+    "variant": "+",
+    "typeof": "engine",
+    "block": {
+        "name": "Ultimate+",
+        "stats": {
+            "layout": "inline",
+            "quality": 100.0,
+            "stroke": 86.0,
+            "material": "ultimateplus",
+            "cylinders": 6,
+            "bore": 86.0
+        }
+    },
+    "pistons": {
+        "name": "Ultimate+ Pistons",
+        "stats": {
+            "material": "ultimateplus",
+            "diameter": 86.0,
+            "quality": 100.0
+        }
+    },
+    "intake": {
+        "name": "Ultimate+ Intake",
+        "stats": {
+            "material": "ultimateplus",
+            "quality": 100.0,
+            "system": "performance"
+        }
+    },
+    "fuel": {
+        "name": "Ultimate+ Fuel System",
+        "stats": {
+            "deliver": "per-cylinder",
+            "quality": 100.0,
+            "method": "direct",
+            "system": "injection"
+        }
+    },
+    "valves": {
+        "name": "Ultimate+ Valves",
+        "stats": {
+            "quality": 100.0,
+            "material": "ultimateplus"
+        }
+    },
+    "aspiration": {
+        "name": "Ultimate+ Twin Turbos",
+        "stats": {
+            "turbine": 40.0,
+            "compressor2": 12.0,
+            "quality": 100.0,
+            "compressor": 25.0,
+            "material": "ultimateplus",
+            "turbine2": 25.0,
+            "method": "twin",
+            "system": "turbocharger"
+        }
+    },
+    "heads": {
+        "name": "Ultimate+ Heads",
+        "stats": {
+            "valves": 4,
+            "config": "DOHC",
+            "quality": 100.0,
+            "material": "ultimateplus",
+            "vvl": false
+        }
+    },
+    "name": "Ultimate+",
+    "crankshaft": {
+        "name": "Ultimate+ Crankshaft",
+        "stats": {
+            "quality": 100.0,
+            "material": "ultimateplus"
+        }
+    }
+}

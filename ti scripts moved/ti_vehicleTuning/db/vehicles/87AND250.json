@@ -1,0 +1,85 @@
+{
+    "stance": {
+        "xOff": {
+            "1": 0.80097597837448,
+            "2": -0.75251299142837,
+            "3": 0.75251299142837,
+            "0": -0.80097597837448
+        },
+        "yRot": {
+            "1": -0.0,
+            "2": 0.0,
+            "3": -0.0,
+            "0": 0.0
+        },
+        "wheelSize": 0.0,
+        "wheelWidth": 0.0
+    },
+    "handling": {
+        "fBrakeBiasFront": 0.44999998807907,
+        "fDriveBiasFront": 0.20000000298023
+    },
+    "engine": {
+        "build": {
+            "heads": {
+                "vvl": false,
+                "layout": "dohc",
+                "valves": 4,
+                "quality": 1.0
+            },
+            "conrods": {
+                "quality": 1.0,
+                "material": "stock"
+            },
+            "valves": {
+                "quality": 1.0,
+                "material": "stock"
+            },
+            "pistons": {
+                "quality": 1.0,
+                "material": "stock"
+            },
+            "crankshaft": {
+                "quality": 1.0,
+                "material": "stock"
+            },
+            "fuelDelivery": {
+                "quality": 1.0
+            },
+            "block": {
+                "bore": 0.66,
+                "quality": 1.0,
+                "layout": "inline",
+                "stroke": 0.66,
+                "cylinders": 6
+            }
+        },
+        "tune": {
+            "heads": {
+                "compRatio": 0.69,
+                "camProfile": 0.46,
+                "airflow": 0.98,
+                "vvlProfile": 0.43
+            },
+            "aspiration": {
+                "superchargerBoost": 0.5,
+                "turboSize1": 0.5,
+                "turboBoost1": 0.5,
+                "turboBoost2": 0.5,
+                "turboSize2": 0.5,
+                "superchargerSize": 0.5
+            },
+            "nitrous": {
+                "rampStart": 0.3,
+                "rampEndBoost": 1.0,
+                "rampEnd": 1.0,
+                "rampStartBoost": 1.0
+            },
+            "fuel": {
+                "afRatio": 0.44,
+                "timing": 0.42,
+                "limiter": 0.63
+            }
+        }
+    }
+}

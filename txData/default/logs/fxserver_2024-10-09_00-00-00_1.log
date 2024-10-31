@@ -1,0 +1,48 @@
+
+================================================================
+======== Log Rotated - 10/9/2024, 11:09:10 PM                   
+================================================================
+
+================================================================
+======== FXServer Starting - 10/9/2024, 11:09:11 PM             
+================================================================
+[           resources] Scanning resources.
+[resources:defaultmap] Warning: [defaultmaps] is a category, but has a resource manifest (if this is meant to be a resource, don't use [] around the name)
+[resources:interact-s] Warning: interact-sound exists in more than one place (C:\FiveM\txData\QBCoreFramework_F161D4.base\resources\[standalone]\interact-sound is used, the duplicate is C:\FiveM\txData\QBCoreFramework_F161D4.base\resources\[standalone]\[testing]\interact-sound)
+[resources:enhancedca] Warning: enhancedcamera has an outdated manifest (__resource.lua instead of fxmanifest.lua)
+[           resources] Found 174 resources.
+[           resources] 3 warnings were encountered.
+[          svadhesive] Authenticating server license key...
+[          svadhesive] Server license key authentication succeeded. Welcome!
+[    c-scripting-core] Creating script environments for sessionmanager
+[           resources] Started resource sessionmanager
+[    c-scripting-core] Creating script environments for monitor
+[      script:monitor] [txAdmin] Resource v7.2.2 threads and commands set up. All Ready.
+[           resources] Started resource monitor
+[      net-tcp-server] Listening on socket failed - libuv error EADDRINUSE.
+[      net-tcp-server] error on connection: address already in use
+[ citizen-server-impl] Error: Could not bind on 0.0.0.0:30130 - is this address valid and not already in use?
+[ citizen-server-impl] 
+Fatal Error: Could not bind on 0.0.0.0:30130 - is this address valid and not already in use?
+
+================================================================
+======== FXServer Starting - 10/9/2024, 11:09:39 PM             
+================================================================
+[           resources] Scanning resources.
+[resources:defaultmap] Warning: [defaultmaps] is a category, but has a resource manifest (if this is meant to be a resource, don't use [] around the name)
+[resources:interact-s] Warning: interact-sound exists in more than one place (C:\FiveM\txData\QBCoreFramework_F161D4.base\resources\[standalone]\interact-sound is used, the duplicate is C:\FiveM\txData\QBCoreFramework_F161D4.base\resources\[standalone]\[testing]\interact-sound)
+[resources:enhancedca] Warning: enhancedcamera has an outdated manifest (__resource.lua instead of fxmanifest.lua)
+[           resources] Found 174 resources.
+[           resources] 3 warnings were encountered.
+[          svadhesive] Authenticating server license key...
+[          svadhesive] Server license key authentication succeeded. Welcome!
+[    c-scripting-core] Creating script environments for sessionmanager
+[           resources] Started resource sessionmanager
+[    c-scripting-core] Creating script environments for monitor
+[      script:monitor] [txAdmin] Resource v7.2.2 threads and commands set up. All Ready.
+[           resources] Started resource monitor
+[38;5;75m[      net-tcp-server] Listening on socket failed - libuv error EADDRINUSE.
+[      net-tcp-server] error on connection: address already in use
+[ citizen-server-impl] Error: Could not bind on 0.0.0.0:30130 - is this address valid and not already in use?
+[ citizen-server-impl] 
+Fatal Error: Could not bind on 0.0.0.0:30130 - is this address valid and not already in use?

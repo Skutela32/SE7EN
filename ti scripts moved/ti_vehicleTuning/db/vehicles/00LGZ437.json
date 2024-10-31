@@ -1,0 +1,88 @@
+{
+    "stance": {
+        "wheelWidth": 0.0,
+        "yRot": {
+            "3": -0.0,
+            "2": 0.0,
+            "1": -0.0,
+            "0": 0.0
+        },
+        "xOff": {
+            "3": 0.77338397502899,
+            "2": -0.77338397502899,
+            "1": 0.76365602016448,
+            "0": -0.76365602016448
+        },
+        "wheelSize": 0.0
+    },
+    "handling": {
+        "fBrakeBiasFront": 0.55000001192092,
+        "fDriveBiasFront": 0.25
+    },
+    "engine": {
+        "build": {
+            "fuelDelivery": {
+                "quality": 1.0
+            },
+            "conrods": {
+                "material": "stock",
+                "quality": 1.0
+            },
+            "valves": {
+                "material": "stock",
+                "quality": 1.0
+            },
+            "crankshaft": {
+                "material": "stock",
+                "quality": 1.0
+            },
+            "pistons": {
+                "material": "stock",
+                "quality": 1.0
+            },
+            "block": {
+                "cylinders": 6,
+                "layout": "inline",
+                "stroke": 0.66,
+                "quality": 1.0,
+                "bore": 0.66
+            },
+            "heads": {
+                "layout": "dohc",
+                "vvl": false,
+                "valves": 4,
+                "quality": 1.0
+            }
+        },
+        "damagedComponents": [
+            "crankshaft"
+        ],
+        "tune": {
+            "aspiration": {
+                "turboSize1": 0.5,
+                "superchargerSize": 0.5,
+                "turboBoost1": 0.5,
+                "superchargerBoost": 0.5,
+                "turboBoost2": 0.5,
+                "turboSize2": 0.5
+            },
+            "nitrous": {
+                "rampEndBoost": 1.0,
+                "rampStartBoost": 1.0,
+                "rampEnd": 1.0,
+                "rampStart": 0.3
+            },
+            "fuel": {
+                "timing": 1.0,
+                "limiter": 1.0,
+                "afRatio": 1.0
+            },
+            "heads": {
+                "vvlProfile": 0.43,
+                "camProfile": 1.0,
+                "compRatio": 1.0,
+                "airflow": 1.0
+            }
+        }
+    }
+}

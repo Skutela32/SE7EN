@@ -1,0 +1,85 @@
+{
+    "handling": {
+        "fDriveBiasFront": 0.25,
+        "fBrakeBiasFront": 0.55000001192092
+    },
+    "stance": {
+        "yRot": {
+            "0": -0.24999999999998,
+            "1": 0.24999999999998,
+            "2": -0.24999999999998,
+            "3": 0.24999999999998
+        },
+        "xOff": {
+            "0": -0.93365602016448,
+            "1": 0.934,
+            "2": -0.93,
+            "3": 0.93
+        },
+        "wheelSize": 0.0,
+        "wheelWidth": 0.0
+    },
+    "engine": {
+        "build": {
+            "conrods": {
+                "material": "steel",
+                "quality": 0.5
+            },
+            "heads": {
+                "valves": 4,
+                "quality": 0.5,
+                "vvl": false,
+                "layout": "dohc"
+            },
+            "block": {
+                "stroke": 0.66,
+                "cylinders": 6,
+                "quality": 0.5,
+                "bore": 0.66,
+                "layout": "inline"
+            },
+            "pistons": {
+                "material": "steel",
+                "quality": 0.5
+            },
+            "crankshaft": {
+                "material": "steel",
+                "quality": 0.5
+            },
+            "fuelDelivery": {
+                "quality": 0.5
+            },
+            "valves": {
+                "material": "steel",
+                "quality": 0.5
+            }
+        },
+        "tune": {
+            "nitrous": {
+                "rampStartBoost": 1.0,
+                "rampEnd": 1.0,
+                "rampEndBoost": 1.0,
+                "rampStart": 0.3
+            },
+            "fuel": {
+                "afRatio": 0.43,
+                "timing": 0.43,
+                "limiter": 0.62
+            },
+            "aspiration": {
+                "superchargerBoost": 0.5,
+                "superchargerSize": 0.5,
+                "turboBoost2": 0.5,
+                "turboSize1": 0.5,
+                "turboSize2": 0.5,
+                "turboBoost1": 0.5
+            },
+            "heads": {
+                "camProfile": 0.45,
+                "vvlProfile": 0.43,
+                "compRatio": 0.53,
+                "airflow": 0.9
+            }
+        }
+    }
+}

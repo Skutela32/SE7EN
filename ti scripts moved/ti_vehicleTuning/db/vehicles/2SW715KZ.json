@@ -1,0 +1,88 @@
+{
+    "stance": {
+        "wheelSize": 1.0,
+        "xOff": {
+            "0": -0.71535998582839,
+            "1": 0.71535998582839,
+            "2": -0.72349399328231,
+            "3": 0.72349399328231
+        },
+        "wheelWidth": 1.0,
+        "yRot": {
+            "0": 0.0,
+            "1": -0.0,
+            "2": 0.0,
+            "3": -0.0
+        }
+    },
+    "engine": {
+        "build": {
+            "fuelDelivery": {
+                "quality": 1.0
+            },
+            "conrods": {
+                "quality": 1.0,
+                "material": "stock"
+            },
+            "pistons": {
+                "quality": 1.0,
+                "material": "stock"
+            },
+            "crankshaft": {
+                "quality": 1.0,
+                "material": "stock"
+            },
+            "heads": {
+                "layout": "dohc",
+                "vvl": false,
+                "quality": 1.0,
+                "valves": 4
+            },
+            "block": {
+                "layout": "inline",
+                "stroke": 0.66,
+                "quality": 1.0,
+                "bore": 0.66,
+                "cylinders": 6
+            },
+            "valves": {
+                "quality": 1.0,
+                "material": "stock"
+            }
+        },
+        "tune": {
+            "fuel": {
+                "limiter": 0.0,
+                "afRatio": 1.0,
+                "timing": 0.74
+            },
+            "nitrous": {
+                "rampStartBoost": 1.0,
+                "rampEnd": 1.0,
+                "rampStart": 0.3,
+                "rampEndBoost": 1.0
+            },
+            "aspiration": {
+                "turboSize2": 0.5,
+                "turboSize1": 0.5,
+                "superchargerBoost": 0.5,
+                "superchargerSize": 0.5,
+                "turboBoost1": 0.5,
+                "turboBoost2": 0.5
+            },
+            "heads": {
+                "compRatio": 0.64999999999999,
+                "camProfile": 0.6,
+                "airflow": 1.0,
+                "vvlProfile": 0.43
+            }
+        },
+        "damagedComponents": [
+            "crankshaft"
+        ]
+    },
+    "handling": {
+        "fBrakeBiasFront": 0.65,
+        "fDriveBiasFront": 0.7
+    }
+}

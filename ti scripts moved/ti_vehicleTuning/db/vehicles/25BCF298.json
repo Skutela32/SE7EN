@@ -1,0 +1,85 @@
+{
+    "stance": {
+        "wheelWidth": 0.0,
+        "yRot": {
+            "3": -0.0,
+            "2": 0.0,
+            "1": -0.0,
+            "0": 0.0
+        },
+        "xOff": {
+            "3": 1.09765005111694,
+            "2": -1.09765005111694,
+            "1": 1.09765005111694,
+            "0": -1.09765005111694
+        },
+        "wheelSize": 0.0
+    },
+    "handling": {
+        "fBrakeBiasFront": 0.64999997615814,
+        "fDriveBiasFront": 0.51999999403953
+    },
+    "engine": {
+        "tune": {
+            "aspiration": {
+                "turboSize1": 0.5,
+                "superchargerSize": 0.5,
+                "turboBoost1": 0.5,
+                "superchargerBoost": 0.5,
+                "turboBoost2": 0.5,
+                "turboSize2": 0.5
+            },
+            "nitrous": {
+                "rampEndBoost": 1.0,
+                "rampStartBoost": 1.0,
+                "rampEnd": 1.0,
+                "rampStart": 0.3
+            },
+            "fuel": {
+                "timing": 0.52,
+                "limiter": 0.67,
+                "afRatio": 0.51
+            },
+            "heads": {
+                "vvlProfile": 0.43,
+                "camProfile": 0.49,
+                "compRatio": 0.75,
+                "airflow": 0.99
+            }
+        },
+        "build": {
+            "fuelDelivery": {
+                "quality": 1.0
+            },
+            "conrods": {
+                "material": "stock",
+                "quality": 1.0
+            },
+            "valves": {
+                "material": "stock",
+                "quality": 1.0
+            },
+            "crankshaft": {
+                "material": "stock",
+                "quality": 1.0
+            },
+            "pistons": {
+                "material": "stock",
+                "quality": 1.0
+            },
+            "block": {
+                "cylinders": 6,
+                "layout": "inline",
+                "stroke": 0.66,
+                "quality": 1.0,
+                "bore": 0.66
+            },
+            "heads": {
+                "layout": "dohc",
+                "vvl": false,
+                "valves": 4,
+                "quality": 1.0
+            }
+        }
+    }
+}

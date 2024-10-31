@@ -1,0 +1,41 @@
+
+================================================================
+======== Log Rotated - 10/7/2024, 12:00:11 AM                   
+================================================================
+[17:16:44][Skutela32] logged in from 5.249.160.151 via password
+[21:50:39][JimmyEssex] logged in from 5.249.160.151 via password
+[21:50:43][JimmyEssex] executed "refresh"
+[21:50:47][JimmyEssex] executed "ensure "vMenu""
+[21:50:50][JimmyEssex] executed "RESTART SERVER"
+[21:51:55][JimmyEssex] executed "RESTART SERVER"
+[22:09:28][JimmyEssex] executed "stop "jim-mechanic""
+[22:09:48][JimmyEssex] executed "stop "ti_mechEngineer""
+[22:10:05][JimmyEssex] executed "stop "ti_vehicleTuning""
+[20:04:05][JimmyEssex] executed "refresh"
+[20:04:44][JimmyEssex] executed "refresh"
+[20:06:30][JimmyEssex] executed "ensure "DLDebadged450""
+[20:07:03][JimmyEssex] executed "RESTART SERVER"
+[20:09:01][JimmyEssex] executed "RESTART SERVER"
+[20:13:43][JimmyEssex] Approved whitelist request from shaynerevi#0.
+[20:28:03][JimmyEssex] executed "RESTART SERVER"
+[20:38:01][JimmyEssex] executed "stop "ti_vehicleTuning""
+[20:40:42][JimmyEssex] executed "RESTART SERVER"
+[20:53:22][JimmyEssex] executed "stop "ti_utils""
+[20:57:38][JimmyEssex] executed "ensure "ti_fuel""
+[21:07:48][JimmyEssex] executed "STOP SERVER"
+[21:08:47][JimmyEssex] executed "START SERVER"
+[21:17:35][JimmyEssex] executed "refresh"
+[21:20:24][JimmyEssex] executed "refresh"
+[21:20:25][JimmyEssex] executed "ensure "LegacyFuel""
+[21:31:24][JimmyEssex] executed "RESTART SERVER"
+[21:32:13][JimmyEssex] executed "refresh"
+[22:45:34][Skutela32] logged in from 5.249.160.151 via password
+
+================================================================
+======== txAdmin v7.2.2 atop fxserver 9282 Starting - 10/9/2024, 11:09:10 PM
+================================================================
+
+================================================================
+======== txAdmin v7.2.2 atop fxserver 9282 Starting - 10/9/2024, 11:09:37 PM
+================================================================
+[23:21:44][JimmyEssex] logged in from 5.249.160.151 via password

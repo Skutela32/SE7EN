@@ -1,0 +1,14 @@
+﻿.raceinfo-background {
+    background-color: rgba(128, 128, 128, 0.75);
+    padding: 30px;
+    border-radius: 30px;
+}
+
+.raceinfo-font {
+    font-size: larger;
+}
+
+.raceinfo-img {
+    height: 400px;
+    width:400px;
+}

@@ -23,23 +23,36 @@
     "permissions": []
   },
   {
-    "name": "ZxTEMPZxZ",
+    "name": "JimmyEssex",
     "master": false,
-    "password_hash": "$2a$11$/HeXNskjnLW31rRXCLIbUOKRzNWvrXinbXR.UeoFmbwa15np28HPy",
+    "password_hash": "$2a$11$Uz1jGdDQXkDjS5s0SNXpcuis.7kIcXRN0rBv/mvfiOZqxihTPuUxi",
     "providers": {
       "discord": {
-        "id": "844007926271049758",
-        "identifier": "discord:844007926271049758",
-        "data": {}
-      },
-      "citizenfx": {
-        "id": "ZxTEMPZxZ",
-        "identifier": "fivem:3567403",
+        "id": "802961683039518760",
+        "identifier": "discord:802961683039518760",
         "data": {}
       }
     },
     "permissions": [
-      "all_permissions"
+      "settings.write",
+      "console.view",
+      "console.write",
+      "control.server",
+      "commands.resources",
+      "server.cfg.editor",
+      "menu.vehicle",
+      "menu.clear_area",
+      "menu.viewids",
+      "players.message",
+      "players.whitelist",
+      "players.warn",
+      "players.kick",
+      "players.ban",
+      "players.freeze",
+      "players.heal",
+      "players.playermode",
+      "players.spectate",
+      "players.teleport"
     ]
   }
 ]

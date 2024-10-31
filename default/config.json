@@ -1,6 +1,6 @@
 {
   "global": {
-    "serverName": "SE7EN",
+    "serverName": "Project Syndicate",
     "language": "en",
     "menuEnabled": true,
     "menuAlignRight": false,
@@ -13,29 +13,32 @@
   "logger": {},
   "monitor": {
     "restarterSchedule": [],
-    "resourceStartingTolerance": 120
+    "resourceStartingTolerance": 300
   },
   "playerDatabase": {
     "onJoinCheckBan": true,
-    "whitelistMode": "disabled",
+    "whitelistMode": "approvedLicense",
     "whitelistedDiscordRoles": [],
-    "whitelistRejectionMessage": "Please join http://discord.gg/example and request to be whitelisted.",
+    "whitelistRejectionMessage": "Server Is Currently Under Development, Please Head To Our Discord Or Website For Updates!\nhttps://discord.gg/EEVa9tfs\nhttps://projectsyndicate.se7enhosting.co.uk/main/",
     "requiredBanHwidMatches": 1,
-    "banRejectionMessage": "You can join http://discord.gg/example to appeal this ban."
+    "banRejectionMessage": "Unfortunately You Have Been Banned :(\nIf You Think This Was A Mistake Let Us Know!\nhttps://discord.gg/EEVa9tfs\nhttps://projectsyndicate.se7enhosting.co.uk/main/"
   },
   "webServer": {
     "disableNuiSourceCheck": false
   },
   "discordBot": {
-    "enabled": false,
-    "embedJson": "{\n  \"title\": \"{{serverName}}\",\n  \"url\": \"{{serverBrowserUrl}}\",\n  \"description\": \"You can configure this embed in `txAdmin > Settings > Discord Bot`, and edit everything from it (except footer).\",\n  \"fields\": [\n    {\n      \"name\": \"> STATUS\",\n      \"value\": \"```\\n{{statusString}}\\n```\",\n      \"inline\": true\n    },\n    {\n      \"name\": \"> PLAYERS\",\n      \"value\": \"```\\n{{serverClients}}/{{serverMaxClients}}\\n```\",\n      \"inline\": true\n    },\n    {\n      \"name\": \"> F8 CONNECT COMMAND\",\n      \"value\": \"```\\nconnect 123.123.123.123\\n```\"\n    },\n    {\n      \"name\": \"> NEXT RESTART\",\n      \"value\": \"```\\n{{nextScheduledRestart}}\\n```\",\n      \"inline\": true\n    },\n    {\n      \"name\": \"> UPTIME\",\n      \"value\": \"```\\n{{uptime}}\\n```\",\n      \"inline\": true\n    }\n  ],\n  \"image\": {\n    \"url\": \"https://forum-cfx-re.akamaized.net/original/5X/e/e/c/b/eecb4664ee03d39e34fcd82a075a18c24add91ed.png\"\n  },\n  \"thumbnail\": {\n    \"url\": \"https://forum-cfx-re.akamaized.net/original/5X/9/b/d/7/9bd744dc2b21804e18c3bb331e8902c930624e44.png\"\n  }\n}",
-    "embedConfigJson": "{\n  \"onlineString\": \"🟢 Online\",\n  \"onlineColor\": \"#0BA70B\",\n  \"partialString\": \"🟡 Partial\",\n  \"partialColor\": \"#FFF100\",\n  \"offlineString\": \"🔴 Offline\",\n  \"offlineColor\": \"#A70B28\",\n  \"buttons\": [\n    {\n      \"emoji\": \"1062338355909640233\",\n      \"label\": \"Connect\",\n      \"url\": \"{{serverJoinUrl}}\"\n    },\n    {\n      \"emoji\": \"1062339910654246964\",\n      \"label\": \"txAdmin Discord\",\n      \"url\": \"https://discord.gg/txAdmin\"\n    },\n    {\n      \"emoji\": \"😏\",\n      \"label\": \"ZAP-Hosting\",\n      \"url\": \"https://zap-hosting.com/txadmin6\"\n    }\n  ]\n}"
+    "enabled": true,
+    "embedJson": "{\n  \"title\": \"{{serverName}}\",\n  \"url\": \"https://projectsyndicate.se7enhosting.co.uk/main/\",\n  \"description\": \"Driven by Passion. A Roleplay Experience for Car Enthusiasts.\",\n  \"fields\": [\n    {\n      \"name\": \"> STATUS\",\n      \"value\": \"```\\n{{statusString}}\\n```\",\n      \"inline\": true\n    },\n    {\n      \"name\": \"> PLAYERS\",\n      \"value\": \"```\\n{{serverClients}}/{{serverMaxClients}}\\n```\",\n      \"inline\": true\n    },\n    {\n      \"name\": \"> F8 CONNECT COMMAND\",\n      \"value\": \"```\\nconnect playsyndicate.se7enhosting.co.uk\\n```\"\n    },\n    {\n      \"name\": \"> NEXT RESTART\",\n      \"value\": \"```\\n{{nextScheduledRestart}}\\n```\",\n      \"inline\": true\n    },\n    {\n      \"name\": \"> UPTIME\",\n      \"value\": \"```\\n{{uptime}}\\n```\",\n      \"inline\": true\n    }\n  ],\n  \"g\": {\n    \"url\": \"https://imgur.com/nw8Y3SJ.png\"\n  },\n  \"thumbnail\": {\n    \"url\": \"https://imgur.com/wmFj31c.png\"\n  },\n  \"image\": {\n    \"url\": \"https://cdn.discordapp.com/attachments/1071768239895494776/1288985103556677733/Untitled_video.gif\"\n  }\n}",
+    "embedConfigJson": "{\n  \"onlineString\": \"🟢 Online\",\n  \"onlineColor\": \"#0BA70B\",\n  \"partialString\": \"🟡 Partial\",\n  \"partialColor\": \"#FFF100\",\n  \"offlineString\": \"🔴 Offline\",\n  \"offlineColor\": \"#A70B28\",\n  \"buttons\": [\n    {\n      \"emoji\": \"1062338355909640233\",\n      \"label\": \"Connect\",\n      \"url\": \"https://playsyndicate.se7enhosting.co.uk\"\n    },\n    {\n      \"emoji\": \"1062339910654246964\",\n      \"label\": \"Discord\",\n      \"url\": \"https://discord.gg/rHu8PcU7AT\"\n    },\n    {\n      \"emoji\": \"1287893683688968336\",\n      \"label\": \"Website\",\n      \"url\": \"https://projectsyndicate.se7enhosting.co.uk/main/\"\n    }\n  ]\n}",
+    "token": "MTA4OTI0MTMxNzYxMzI1MjcwOA.G43_98.J2K56TRZIpKY_xG-6boWPcrflGeVQ3OoA_xsR8",
+    "guild": "1139510569381138442",
+    "announceChannel": false
   },
   "fxRunner": {
     "onesync": "on",
     "autostart": true,
-    "serverDataPath": "C:/FiveM/txData/SE7EN/",
-    "cfgPath": "C:/FiveM/txData/SE7EN/server.cfg"
+    "serverDataPath": "C:/FiveM/txData/QBCoreFramework_F161D4.base/",
+    "cfgPath": "C:/FiveM/txData/QBCoreFramework_F161D4.base/server.cfg"
   },
   "banTemplates": []
 }
